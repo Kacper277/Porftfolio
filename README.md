@@ -1,2 +1,2 @@
 # Porftfolio
-### * [Neural Backtester](https://github.com/Kacper277/neural-backtester)
+* [Neural Backtester](https://github.com/Kacper277/neural-backtester)
