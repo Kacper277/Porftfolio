@@ -1,5 +1,10 @@
 ## Projects
 
+### EV Charging Analytics
+An end-to-end data platform for EV charging networks: synthetic-but-realistic data generation → medallion architecture in Databricks → SQL analytics → Power BI dashboard with tariff what-if scenarios. The platform processes data through three layers (Bronze/Silver/Gold) from 80.8k records and offers interactive "what-if" scenarios for charging cost optimization.
+
+- **Technologies**: Python, Databricks, SQL, Power BI, Docker
+
 ### Defect Detection API
 A REST API for classifying surface defects on steel. The solution is built around a fine-tuned ResNet-18 model trained on the NEU-DET dataset. It provides classification outputs and Grad-CAM heatmaps for interpretability. The service is containerised with Docker and runs on Microsoft Azure.
 
@@ -14,8 +19,12 @@ A backtesting framework for evaluating neural-network-driven trading strategies.
 
 ## Core Stack
 
-- **Languages**: Python
-- **Deep Learning**: PyTorch
+- **Languages**: Python, SQL
+- **Data Engineering**: SQL, Databricks, Apache Spar
+- **Machine Learning**: PyTorch, ResNet, Scikit-learn
+- **Cloud & DevOps**: Docker, Microsoft Azure, Kubernetes
+- **Frameworks**: Flask/FastAPI (REST), Jupyter
+- **Visualization**: Power BI, Matplotlib, Plotly
 - **Web Serving**: Streamlit, Uvicorn
 - **Image Processing**: OpenCV
-- **Deployment**: Docker, Microsoft Azure
+
